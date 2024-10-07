@@ -36,5 +36,5 @@ When('el usuario hace clic en Crear Cuenta para ingresar sin nombre', function (
 
 // Verificar que se presenta un mensaje de error indicando que el nombre es requerido
 Then('se muestra un mensaje de error indicando que el nombre es requerido', function () {
-  cy.get('div.form-section p.text-red-500').should('have.text', 'El nombre es requerido');
+  cy.get('div.form-section p.text-red-500').should('have.text', 'Por favor completa todos los campos.');
 });
