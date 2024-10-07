@@ -41,6 +41,7 @@ When('el usuario hace clic en Crear Cuenta', function () {
 
 // Verificar redirección al Onboarding 1
 Then('el usuario es redirigido a Onboarding 1', function () {
+  cy.wait(2000);
   cy.url().then((url) => {
     const result = isOnboardingScreen(url);
     expect(result).to.be.true;

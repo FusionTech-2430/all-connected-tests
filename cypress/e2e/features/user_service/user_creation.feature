@@ -18,4 +18,4 @@ Característica: Creación de usuario
 
   Ejemplos:
     | Nombre       | Correo electrónico            | Usuario            | Contraseña            | Confirmar contraseña    |
-    | Juan Pérez   | juan.perez@example.com        | JuanP              | ContraseñaSegura123   | ContraseñaSegura123     |
+    | Juan Pérez   | juanasfaperez@example.com        | JuanP              | ContraseñaSegura123   | ContraseñaSegura123     |
