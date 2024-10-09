@@ -114,3 +114,12 @@ Característica: Gestión de aliados
     Entonces debería ver una lista con todos los aliados
     Y cada aliado debe mostrar su nombre, apellido, correo y rol
     Y cada aliado debe tener un botón de acción con las opciones Visualizar y Eliminar
+  
+  # ME-6-EP-01 - Abrir modal de ceder propietario	
+  # Verificar que al hacer clic en "Ceder título propietario", se muestre un modal con la opción de seleccionar
+  # un nuevo propietario.
+  Escenario: Abrir modal de ceder propietario
+    Dado que estoy en la pantalla Mi emprendimiento
+    Cuando hago clic en el botón Ceder título propietario
+    Entonces se debe mostrar un modal con la opción de seleccionar un nuevo propietario
+
