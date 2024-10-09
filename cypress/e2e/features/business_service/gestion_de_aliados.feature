@@ -99,9 +99,6 @@ Característica: Gestión de aliados
   # se regrese a la pantalla de "Mi emprendimiento".
 
   # ME-4-EP-03-CP-01 - Verificar la funcionalidad del botón "Cerrar"
-  # language: es
-Característica: Cerrar modal de token generado
-
   Escenario: Verificar la funcionalidad del botón Cerrar
     Dado que el usuario está viendo el modal con el token generado
     Cuando hace clic en el botón Cerrar
