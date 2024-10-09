@@ -87,3 +87,9 @@ Característica: Gestión de aliados
     Dado que el usuario está en el modal de Añadir Aliado
     Cuando hace clic en Generar Token
     Entonces se genera un token y se despliega un nuevo modal que contiene el token con opciones de Copiar y Cerrar
+  
+  # ME-4-EP-02-CP-02 - Verificar la funcionalidad del botón Copiar
+  Escenario: Verificar la funcionalidad del botón Copiar
+    Dado que el usuario está viendo el modal con el token generado
+    Cuando hace clic en el botón Copiar
+    Entonces el token se copia al portapapeles del dispositivo
